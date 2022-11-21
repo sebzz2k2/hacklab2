@@ -5,7 +5,7 @@ import './App.css'
 function App() {
 
   const [light, setLight] = useState("red");
-  const [time, setTime] = useState(20);
+  const [time, setTime] = useState(0);
 
   //! function for incrementing time 
   const incrementTime = () => {
